@@ -376,7 +376,7 @@ body{
     height: 345vh; 
     width: 290vw;
     background-color: #ccc;
-    top: 300vh;
+    top: 320vh;
     z-index: -1;
     }
     /* the end */
@@ -455,7 +455,7 @@ body{
     height: 345vh; 
     width: 315vw;
     background-color: #ccc;
-    top: 320vh;
+    top: 300vh;
     z-index: -1;
     }
     /* the end */
