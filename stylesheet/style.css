@@ -1,0 +1,586 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* common classes */
+.white{
+    color: #fff;
+}
+.ccc{
+  color: #ccc;  
+}
+.grey{
+    color: grey;
+}
+.eee{
+    color: #eee;
+}
+.color{
+    color: rgb(184, 142, 142);
+}
+.brown{
+    color: brown;
+}
+.none{
+    text-decoration: none;
+    color: #000;
+}
+/* the end */
+
+/* the start of the first section */
+.background-image{
+    background-image: url(../img/background-image/background-image.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-color: #000;
+    /* opacity: 0.7; */
+}
+.background-image .nav-header h3{
+    padding: 50px 0 0 30px;
+}
+.background-image .travel-div{
+    margin: 180px 0 0 380px;
+}
+.background-image .travel-div h1{
+    font-size: 80px;
+    font-family: Trirong;
+}
+.background-image .travel-div div{
+    margin: 60px 10px 0 0 ;
+}
+.link-one :hover{
+    color: grey;
+    padding: 0 0 10px 0 ;
+    border-bottom: 1px solid grey;
+}
+.background-image .travel-div div a{
+    padding: 20px 40px 20px 40px;
+    border: 3px solid #fff;
+    border-radius: 10px ;
+}
+.link-two :hover{
+    background-color: orange;
+    color: grey;
+}
+.list-icon{
+    width: 40px;
+    margin: 50px 20px 0 0;
+}
+/* the end of the first section */
+
+/* the start of the second section */
+.mountain{
+    padding: 120px 0 100px 250px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.373);
+}
+.img-fluid{
+    height: 80vh;
+}
+.mountain-div{
+    margin: 150px 0 0 50px;
+}
+.spacing-one{
+    letter-spacing: -1px;
+}
+.spacing-two{
+    letter-spacing: 2px;
+}
+/* the end of the second section */
+
+/* the start of the third section */
+.third-div{
+    background-color: #eee;
+    padding: 100px 0 100px 0;
+}
+.lol{
+    width: 60px;
+    border-radius:25px ;
+}
+.containerr{
+    width: 89vw;
+}
+/* the end of the third section */
+
+/* the start of the forth section */
+.parent-div{
+    padding: 200px 0 100px 0 ;
+}
+.parentt-div{
+    margin: 100px 0 0 200px;
+    width: 70vw;
+}
+.card-parent{
+    padding: 0 0 0 280px;
+}
+.card-one{
+    margin: 0 20px 0 0;
+}
+.card-two{
+    margin: 0 20px 0 0;
+}
+/* the end of the forth section */
+
+/* the start */
+.pathh{
+    clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0% 100%); 
+    height: 300vh; 
+    width: 100%;
+    background-color: #ccc;
+    top: 320vh;
+    z-index: -1;
+}
+/* the end */
+
+/* the start of customers section */
+.customers-section{
+    height: 75vh;
+    background-color: #eee;
+}
+.customers-div{
+    margin: 50px 0 0 0;
+}
+.happy-text{
+    padding: 100px 0 0 0;
+}
+.happy-text h1{
+    font-size: 50px;
+}
+/* the end */
+
+/* the start of top destination section */
+.top-section{
+    height: 85vh;
+}
+.top-images-div{
+    padding: 50px 0 0 150px;    
+}    
+.top-images{
+    width: 245px;
+}
+.one{
+    margin: 0 0 0 40px;
+}
+/* the end */
+
+/* the start of footer section */
+.container-seven{
+    height: 80vh;
+    background-color: #222;
+}
+.footer-one{
+    padding: 30px 0 0 0 ;
+}
+.footer-one a{
+    line-height: 2.5;
+    cursor: pointer ;
+}
+.footer-two{
+    margin: 80px 0 0 0;
+    padding: 50px 0 0 0;
+    border-top: 1px solid #ccc; 
+}
+/* the end */
+
+@media (max-width: 1439px) and (min-width: 1024px){
+
+/* the start of the first section */
+.background-image{
+    width: 130vw;
+}
+.background-image .travel-div{
+    margin: 180px 0 0 350px;
+}
+/* the end of the first section */
+
+
+/* the start of the second section */
+.mountain{
+    width: 130vw;
+    padding: 120px 0 100px 200px;
+}
+/* the end of the second section */
+
+
+/* the start of the third section */
+.third-div{
+    width: 130vw;
+    padding: 100px 0 100px 0;
+}
+.containerr{
+    width: 120vw;
+}
+/* the end of the third section */
+
+/* the start */
+.pathh{
+    clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0% 100%); 
+    height: 345vh; 
+    width: 130vw;
+    background-color: #ccc;
+    top: 320vh;
+    z-index: -1;
+}
+/* the end */
+
+/* the start of the forth section */
+.parent-div{
+    width: 130vw;
+    padding: 200px 0 100px 0 ;
+}
+.parentt-div{
+    margin: 100px 0 0 260px;
+    width: 80vw;
+}
+.card-parent{
+    padding: 0 0 0 220px;
+}
+/* the end of the forth section */
+
+
+/* the start of customers section */
+.customers-section{
+    width: 130vw;
+}
+.happy-text h1{
+    font-size: 40px;
+}
+/* the end */
+
+
+/* the start of top destination section */
+.top-section{
+    width: 130vw;
+}
+.top-images-div{
+    padding: 50px 0 0 70px;    
+}    
+/* the end */
+
+
+/* the start of footer section */
+.container-seven{
+    width: 130vw;
+    height: 95vh;
+}
+/* the end */
+}
+
+@media (max-width: 1023px) and (min-width: 768px){
+
+    /* the start of the first section */
+    .background-image{
+        width: 170vw;
+    }
+    /* the end of the first section */
+    
+    /* the start of the second section */
+    .mountain{
+        width: 170vw;
+    }
+    /* the end of the second section */
+    
+    
+    /* the start of the third section */
+    .third-div{
+        width: 170vw;
+        padding: 100px 0 100px 0;
+    }
+    .containerr{
+        width: 160vw;
+    }
+    /* the end of the third section */
+    
+    /* the start */
+    .pathh{
+    clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0% 100%); 
+    height: 345vh; 
+    width: 170vw;
+    background-color: #ccc;
+    top: 320vh;
+    z-index: -1;
+    }
+    /* the end */
+    
+    /* the start of the forth section */
+    .parent-div{
+        width: 170vw;
+    }
+    .parentt-div{
+        margin: 100px 0 0 240px;
+        width: 110vw;
+    }
+    .card-parent{
+        padding: 0 0 0 210px;
+    }
+    /* the end of the forth section */
+    
+    
+    /* the start of customers section */
+    .customers-section{
+        width: 170vw;
+    }
+    .happy-text h1{
+        font-size: 35px;
+    }
+    /* the end */
+    
+    
+    /* the start of top destination section */
+    .top-section{
+        width: 170vw;
+    } 
+    .top-images-div{
+        padding: 50px 0 0 70px;    
+    } 
+    /* the end */
+
+    /* the start of footer section */
+    .container-seven{
+        width: 170vw;
+        height: 95vh;
+    }
+    /* the end */
+}
+    
+@media (max-width: 767px) and (min-width: 425px){
+
+    /* the start of the first section */
+    .background-image{
+        width: 290vw;
+    }
+    /* the end of the first section */
+    
+    
+    /* the start of the second section */
+    .mountain{
+        width: 290vw;
+        padding: 120px 0 100px 150px;
+    }
+    /* the end of the second section */
+    
+    
+    /* the start of the third section */
+    .third-div{
+        width: 290vw;
+        padding: 100px 0 100px 0;
+    }
+    .containerr{
+        width: 275vw;
+    }
+    /* the end of the third section */
+    
+    /* the start */
+    .pathh{
+    clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0% 100%); 
+    height: 345vh; 
+    width: 290vw;
+    background-color: #ccc;
+    top: 320vh;
+    z-index: -1;
+    }
+    /* the end */
+
+    /* the start of the forth section */
+    .parent-div{
+        width: 290vw;
+        padding: 200px 0 100px 0 ;
+    }
+    .parentt-div{
+        margin: 100px 0 0 260px;
+        width: 170vw;
+    }
+    .card-parent{
+        padding: 0 0 0 180px;
+    }
+    /* the end of the forth section */
+    
+    
+    /* the start of customers section */
+    .customers-section{
+        width: 290vw;
+    }
+    .happy-text h1{
+        font-size: 35px;
+    }
+    /* the end */
+    
+    
+    /* the start of top destination section */
+    .top-section{
+        width: 290vw;
+    }
+    .top-images-div{
+        padding: 50px 0 0 30px;    
+    }    
+    /* the end */
+    
+    
+    /* the start of footer section */
+    .container-seven{
+        width: 290vw;
+        height: 95vh;
+    }
+    /* the end */
+}
+
+@media (max-width: 424px) and (min-width: 375px){
+
+    /* the start of the first section */
+    .background-image{
+        width: 315vw;
+    }
+    /* the end of the first section */
+    
+    /* the start of the second section */
+    .mountain{
+        width: 315vw;
+        padding: 120px 0 100px 130px;
+    }
+    /* the end of the second section */
+    
+    /* the start of the third section */
+    .third-div{
+        width: 315vw;
+        padding: 100px 0 100px 0;
+    }
+    .containerr{
+        width: 275vw;
+    }
+    /* the end of the third section */
+    
+    /* the start */
+    .pathh{
+    clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0% 100%); 
+    height: 345vh; 
+    width: 315vw;
+    background-color: #ccc;
+    top: 320vh;
+    z-index: -1;
+    }
+    /* the end */
+
+    /* the start of the forth section */
+    .parent-div{
+        width: 315vw;
+        padding: 200px 0 100px 0 ;
+    }
+    .parentt-div{
+        margin: 100px 0 0 230px;
+        width: 195vw;
+    }
+    .card-parent{
+        padding: 0 0 0 150px;
+    }
+    /* the end of the forth section */
+    
+    /* the start of customers section */
+    .customers-section{
+        width: 315vw;
+    }
+    .happy-text h1{
+        font-size: 30px;
+    }
+    /* the end */
+    
+    /* the start of top destination section */
+    .top-section{
+        width: 315vw;
+    }
+    .top-images-div{
+        padding: 50px 0 0 10px;    
+    }    
+    /* the end */
+
+    /* the start of footer section */
+    .container-seven{
+        width: 315vw;
+        height: 96vh;
+
+    }
+    /* the end */
+}
+
+@media (max-width: 374px) and (min-width: 320px){
+
+    /* the start of the first section */
+    .background-image{
+        width: 360vw;
+    }
+    .background-image .travel-div{
+        margin: 180px 0 0 350px;
+    }
+    /* the end of the first section */
+    
+    /* the start of the second section */
+    .mountain{
+        width: 360vw;
+        padding: 120px 0 100px 130px;
+    }
+    /* the end of the second section */
+    
+    /* the start of the third section */
+    .third-div{
+        width: 360vw;
+        padding: 100px 0 100px 10px;
+    }
+    .containerr{
+        width: 320vw;
+    }
+    /* the end of the third section */
+    
+    /* the start */
+    .pathh{
+    clip-path: polygon(0 50%, 100% 35%, 100% 100%, 0% 100%); 
+    height: 345vh; 
+    width: 360vw;
+    background-color: #ccc;
+    top: 320vh;
+    z-index: -1;
+    }
+    /* the end */
+
+    /* the start of the forth section */
+    .parent-div{
+        width: 360vw;
+        padding: 200px 0 100px 0 ;
+    }
+    .parentt-div{
+        margin: 100px 0 0 230px;
+        width: 220vw;
+    }
+    .card-parent{
+        padding: 0 0 0 150px;
+    }
+    /* the end of the forth section */
+    
+    /* the start of customers section */
+    .customers-section{
+        width: 360vw;
+    }
+    .happy-text h1{
+        font-size: 30px;
+    }
+    /* the end */
+    
+    /* the start of top destination section */
+    .top-section{
+        width: 360vw;
+    }
+    .top-images-div{
+        padding: 50px 0 0 0;    
+    }    
+    /* the end */
+
+    /* the start of footer section */
+    .container-seven{
+        width: 360vw;
+        height: 95vh;
+    }
+    /* the end */
+}
+
+
+
+
+    
